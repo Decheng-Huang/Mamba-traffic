@@ -112,4 +112,13 @@ numpy  pandas  pyarrow  torch  mamba-ssm (+ causal-conv1d)
   `box_results/` 里的文件多数**早于**这个机制，因此不含该块。
 - **METR-LA**：论文原计划用 PeMS-BAY + METR-LA 两个数据集；METR-LA 在 2026-09-27
   被判定「管线级不复现」而弃用。相关脚本保留，文件头注写明了原因与判据。
-- 本仓库是**私有**的；数据与模型权重均未随包分发。
+- 数据与模型权重均未随包分发。
+
+---
+
+## 六、许可与引用
+
+本仓库以 **MIT 许可**发布（见 `LICENSE`）：可以自由使用、修改、分发，**但必须保留版权声明**。
+
+引用格式见 `CITATION.cff`；GitHub 会在仓库页右侧显示「Cite this repository」。
+

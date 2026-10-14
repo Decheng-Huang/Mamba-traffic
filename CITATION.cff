@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+title: "Mamba-based short-term traffic forecasting with a spatial-information ablation"
+abstract: >-
+  Engineering implementation of an M.Sc./B.Sc. thesis experiment on short-term
+  traffic flow forecasting. Contains the Mamba backbone built on the official
+  mamba_ssm selective-scan kernel, the baseline models (Persistence, Historical
+  average, LSTM, Transformer, Graph WaveNet, DCRNN), the input-side three-arm
+  ablation, and the raw result files from which the paper's tables are generated.
+type: software
+authors:
+  - name: "Decheng-Huang"
+repository-code: "https://github.com/Decheng-Huang/Mamba-traffic"
+url: "https://github.com/Decheng-Huang/Mamba-traffic"
+license: MIT
+date-released: "2026-10-14"
+keywords:
+  - traffic forecasting
+  - spatio-temporal
+  - Mamba
+  - state space model
+  - ablation study
+  - PeMS
