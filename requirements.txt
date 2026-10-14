@@ -1,0 +1,16 @@
+# 依赖由代码里实际的 import 扫出，未锁定版本号 —— 当时的运行环境没有留下
+# 可核对的版本记录，这里不填猜的数字。按 CUDA 版本自行选 torch。
+
+numpy
+pandas
+pyarrow
+
+# torch 请按 CUDA 版本从官网装，例如：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch
+
+# Mamba 官方 CUDA 核。两者必须与 torch / CUDA 版本匹配才能编译通过，
+# 顺序也不能反（causal-conv1d 先装）：
+#   pip install causal-conv1d>=1.2.0
+#   pip install mamba-ssm
+mamba-ssm

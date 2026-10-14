@@ -1,0 +1,8 @@
+# 与源仓库同一条纪律：入库什么字节，检出就是什么字节。
+#
+# ① 这些 .sh 要在 Linux 实例上跑 —— CRLF 的脚本会让 bash 报
+#    `unexpected token $'{\r'`。本项目在 CRLF 上栽过，不是理论风险。
+# ② box_results/*.json 与日志的 sha256 是拿来对质的，换行符一变哈希就变。
+#
+# 本机 core.autocrlf=true，不加这一行，git 会把全部文本转成 CRLF。
+* -text

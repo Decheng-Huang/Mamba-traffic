@@ -1,0 +1,28 @@
+# 数据集（体积大，且由原始提供方分发，本仓库不分发）
+数据集/
+*.parquet
+*.npy
+*.npz
+
+# 模型权重
+*.pt
+*.pth
+*.ckpt
+
+# 运行产物
+*.log
+chain*.log
+nohup.out
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 压缩包
+*.zip
+*.tgz
+*.tar.gz
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
